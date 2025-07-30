@@ -18,22 +18,22 @@ public class Condition11 {
         String selectedChar = scanner.nextLine();
         switch(selectedChar) {
             case "a":
-                System.out.println("메뉴 1을 선택하셨습니다.");
+                System.out.println("메뉴 a을 선택하셨습니다.");
                 break;
             case "b":
-                System.out.println("메뉴 2를 선택하셨습니다.");
+                System.out.println("메뉴 b를 선택하셨습니다.");
                 break;
             case "c":
-                System.out.println("메뉴 3을 선택하셨습니다.");
+                System.out.println("메뉴 c을 선택하셨습니다.");
                 break;
             case "d":
-                System.out.println("메뉴 4를 선택하셨습니다.");
+                System.out.println("메뉴 d를 선택하셨습니다.");
                 break;
             case "e":
-                System.out.println("메뉴 5를 선택하셨습니다.");
+                System.out.println("메뉴 e를 선택하셨습니다.");
                 break;
             case "f":
-                System.out.println("메뉴 6을 선택하셨습니다.");
+                System.out.println("메뉴 f을 선택하셨습니다.");
                 break;
             default:
                 System.out.println("잘못 선택하셨습니다.");
