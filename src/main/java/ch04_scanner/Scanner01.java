@@ -17,11 +17,13 @@ public class Scanner01 {
             print로 작성할 경우에 동일 라인에 그대로 연결됨.
         2. nextLine / nextInt /
          */
-//        System.out.print("연도를 입력하세요 >>> ");
-//        int year = scanner.nextInt();
-//        System.out.print("이름을 다시 입력하세요 >>> ");
-//        name = scanner.next(); // 입력을 ahn geunsu
-//        System.out.println(name);
+        System.out.print("연도를 입력하세요 >>> ");
+        int year = scanner.nextInt();
+        System.out.print("이름을 다시 입력하세요 >>> ");
+        String name = scanner.next(); // 입력을 ahn geunsu
+        System.out.println(name);
+        System.out.println(year);
+
         /*
             2. next(Int/ Double, ... etc) vs nextLine
                 -nextLine은 띄어쓰기를 허용한다. enter키, 즉 개행을 기준으로 데이터가 변수에 저장됨
@@ -67,12 +69,12 @@ public class Scanner01 {
 //        String name = scanner.nextLine();
 //        System.out.println(name + " 학생의 점수는 " + score + "입니다.");
 
-        System.out.println("풀이법 #2 : nextLine()을 쓰지않는 방법");
-        System.out.print("점수를 입력하세요 >>> ");
-        double score = scanner.nextDouble();
-        System.out.print("이름을 입력하세요 >>> ");
-        String name = scanner.next();
-        System.out.println(name + " 학생의 점수는 " + score + "입니다.");
+//        System.out.println("풀이법 #2 : nextLine()을 쓰지않는 방법");
+//        System.out.print("점수를 입력하세요 >>> ");
+//        double score = scanner.nextDouble();
+//        System.out.print("이름을 입력하세요 >>> ");
+//        String name = scanner.next();
+//        System.out.println(name + " 학생의 점수는 " + score + "입니다.");
 
 
     }
