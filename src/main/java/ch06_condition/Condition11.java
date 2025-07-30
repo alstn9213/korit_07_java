@@ -8,12 +8,12 @@ public class Condition11 {
         int selectedNum;
 
         System.out.println("[메뉴 선택]");
-        System.out.println("1. Java를 공부한다.");
-        System.out.println("2. Python을 공부한다.");
-        System.out.println("3. JavaScript를 공부한다.");
-        System.out.println("4. HTML을 공부한다.");
-        System.out.println("5. 자습한다.");
-        System.out.println("6. 쉰다.");
+        System.out.println("a. Java를 공부한다.");
+        System.out.println("b. Python을 공부한다.");
+        System.out.println("c. JavaScript를 공부한다.");
+        System.out.println("d. HTML을 공부한다.");
+        System.out.println("e. 자습한다.");
+        System.out.println("f. 쉰다.");
         System.out.print("메뉴를 선택하세요 >>> ");
         String selectedChar = scanner.nextLine();
         switch(selectedChar) {
@@ -41,7 +41,15 @@ public class Condition11 {
 
 //         if문을 사용할 경우 일이 복잡해진다.
 //        selectedNum = scanner.nextInt();
-
+//
+//        System.out.println("[메뉴 선택]");
+//        System.out.println("1. Java를 공부한다.");
+//        System.out.println("2. Python을 공부한다.");
+//        System.out.println("3. JavaScript를 공부한다.");
+//        System.out.println("4. HTML을 공부한다.");
+//        System.out.println("5. 자습한다.");
+//        System.out.println("6. 쉰다.");
+//        System.out.print("메뉴를 선택하세요 >>> ");
 //        if (selectedNum < 1 || selectedNum > 6) {
 //            System.out.println("불가능한 메뉴 선택입니다.");
 //        } else {
