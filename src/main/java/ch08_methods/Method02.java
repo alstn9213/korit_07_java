@@ -6,8 +6,45 @@ public class Method02 {
 
 //    call4() 유형으로 작성예정. 몇 줄짜리인지 어떤 유형의 별찍기인지를 main에서 받을예정
     public static String getStar(int rows, int option) {
-        String result = "임시";
+        String result = "";
 //       이 사이에 별찍기 관련 로직이 들어갈 예정
+        if(option == 1) {
+            for(int i=0;i<rows+1;i++){
+                for(int j=0;j<i;j++){
+                    result += "*";
+                }
+                result += "\n";
+            }
+        } else if(option == 2) {
+            for(int i=0;i<rows+1;i++){
+                for(int j=rows;j-i>0;j--){
+                    result += " ";
+                }
+                for(int j=0;j-i<0;j++){
+                   result += "*";
+                }
+                result += "\n";
+            }
+        } else if(option == 3) {
+        for(int i=0;i<rows+1;i++) {
+            for (int j = rows; j - i > 0; j--) {
+                result += "*";
+            }
+            result += "\n";
+        }
+        } else if(option == 4) {
+            for(int i=0; i<rows; i++) {
+                for(int j=0;j<i+1;j++){
+                    result += " ";
+                }
+                for(int j = rows; j>i; j--){
+                    result += "*";
+                }
+                result += "\n";
+            }
+        } else {
+            result = "해당 기능이 없습니다.";
+        }
         return result;
     }
 
