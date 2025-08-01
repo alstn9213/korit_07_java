@@ -34,4 +34,5 @@ public class Student {
         System.out.println("점수 : "+score);
     }
 
+
 }
