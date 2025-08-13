@@ -105,7 +105,18 @@ public class BmiCalc {
         double weight = scanner.nextDouble();
 //        bmiCalc.calcBmi(name, height, weight); // call2
 
-        bmiCalc.calcBmi(new Person.PersonBuilder().height(height).weight(weight).name(name).build());
 
+//        bmiCalc.calcBmi(new Person.PersonBuilder()
+//        .height(height)
+//        .weight(weight)
+//        .name(name)
+//        .build());
+
+        Person person5 = Person.builder()
+                .weight(weight)
+                .height(height)
+                .name(name)
+                .build();
+        bmiCalc.calcBmi(person5);
     }
 }
