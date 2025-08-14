@@ -9,6 +9,8 @@ public class FieldTrip {
         String fieldTrip;
         List<String> fieldTrips = new ArrayList<>();
         Set<String> fieldTripSet = new HashSet<>();
+        List<String> modifiedFieldTrips = new ArrayList<>();
+
 
         System.out.print("몇 명의 학생이 수학여행지를 입력하시겠습니까? ");
         stuNum = scanner.nextInt();
@@ -25,7 +27,6 @@ public class FieldTrip {
         }
 
         fieldTripSet.addAll(fieldTrips);
-        List<String> modifiedFieldTrips = new ArrayList<>();
         modifiedFieldTrips.addAll(fieldTripSet);
 
         System.out.println("수학여행 후보지는 ");
