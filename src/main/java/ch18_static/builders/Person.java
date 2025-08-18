@@ -2,8 +2,6 @@ package ch18_static.builders;
 
 import lombok.ToString;
 
-import java.util.Locale;
-
 @ToString
 public class Person {
     private String name;

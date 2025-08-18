@@ -70,8 +70,8 @@ public class StrMap {
         Set<String> keySet = strMap1.keySet();
         System.out.println(keySet);
 
-//        Set<String> valueSet = strMap1.values(); // values는 Collection<String> 타입을 반환하는데 참조변수는 Set<String>타입이다. 이는 다운캐스팅으로 해결해야한다.
-//        그래서 명시적으로 다운캐스팅해서 Set<String> valueSet = (Set<String>) strMap1.values();을 하면 컴파일 오류가 뜬다.
+//        Set<String> valueSet = strMap1.values(); // values는 Collection<String> 타입을 반환하는데 참조변수는 Set<String>타입이다.
+//        이를 다운캐스팅으로 해결할 수 있을 것 같지만 Set<String> valueSet = (Set<String>) strMap1.values();을 하면 런타임 오류가 뜬다.
 //        이건 values의 반환값은 Collections인데 Set이 담을수 있는 타입은 String이기 때문이다.
 //
         Collection<String> values = strMap1.values();
